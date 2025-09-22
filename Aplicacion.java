@@ -8,9 +8,9 @@ public class Aplicacion {
         Persona p2 = new Persona("Brandon", 30);
         Persona p3 = new Persona("Francis", 40);
         
-        CuentaBancaria c1 = new CuentaBancaria(1000, p1);
-        CuentaBancaria c2 = new CuentaBancaria(2000, p2);
-        CuentaBancaria c3 = new CuentaBancaria(3000, p3);
+        CuentaBancaria c1 = new CuentaBancaria(0, p1);
+        CuentaBancaria c2 = new CuentaBancaria(300, p2);
+        CuentaBancaria c3 = new CuentaBancaria(6000, p3);
 
         c1.depositar(500);
         c2.retirar(300);
